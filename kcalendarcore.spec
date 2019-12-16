@@ -6,7 +6,7 @@
 #
 Name     : kcalendarcore
 Version  : 5.65.0
-Release  : 1
+Release  : 2
 URL      : https://download.kde.org/stable/frameworks/5.65/kcalendarcore-5.65.0.tar.xz
 Source0  : https://download.kde.org/stable/frameworks/5.65/kcalendarcore-5.65.0.tar.xz
 Source1  : https://download.kde.org/stable/frameworks/5.65/kcalendarcore-5.65.0.tar.xz.sig
@@ -21,6 +21,7 @@ BuildRequires : buildreq-kde
 BuildRequires : pkg-config
 BuildRequires : pkgconfig(libical)
 BuildRequires : qtbase-dev mesa-dev
+Provides : kcalcore
 
 %description
 To build these tests, build with the cmake option KDE4_BUILD_TESTS=ON.
@@ -31,6 +32,7 @@ to the .out files equivalent to the .ref files containing the expected results.
 %package data
 Summary: data components for the kcalendarcore package.
 Group: Data
+Provides : kcalcore-data
 
 %description data
 data components for the kcalendarcore package.
@@ -43,6 +45,7 @@ Requires: kcalendarcore-lib = %{version}-%{release}
 Requires: kcalendarcore-data = %{version}-%{release}
 Provides: kcalendarcore-devel = %{version}-%{release}
 Requires: kcalendarcore = %{version}-%{release}
+Provides : kcalcore-dev
 
 %description dev
 dev components for the kcalendarcore package.
@@ -53,6 +56,7 @@ Summary: lib components for the kcalendarcore package.
 Group: Libraries
 Requires: kcalendarcore-data = %{version}-%{release}
 Requires: kcalendarcore-license = %{version}-%{release}
+Provides : kcalcore-lib
 
 %description lib
 lib components for the kcalendarcore package.
@@ -61,6 +65,7 @@ lib components for the kcalendarcore package.
 %package license
 Summary: license components for the kcalendarcore package.
 Group: Default
+Provides : kcalcore-license
 
 %description license
 license components for the kcalendarcore package.
