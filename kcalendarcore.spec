@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kcalendarcore
-Version  : 5.70.0
-Release  : 8
-URL      : https://download.kde.org/stable/frameworks/5.70/kcalendarcore-5.70.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.70/kcalendarcore-5.70.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.70/kcalendarcore-5.70.0.tar.xz.sig
+Version  : 5.71.0
+Release  : 9
+URL      : https://download.kde.org/stable/frameworks/5.71/kcalendarcore-5.71.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.71/kcalendarcore-5.71.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.71/kcalendarcore-5.71.0.tar.xz.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause LGPL-2.0
@@ -70,15 +70,15 @@ license components for the kcalendarcore package.
 
 
 %prep
-%setup -q -n kcalendarcore-5.70.0
-cd %{_builddir}/kcalendarcore-5.70.0
+%setup -q -n kcalendarcore-5.71.0
+cd %{_builddir}/kcalendarcore-5.71.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1589231573
+export SOURCE_DATE_EPOCH=1592242226
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -94,11 +94,11 @@ make  %{?_smp_mflags}  VERBOSE=1
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1589231573
+export SOURCE_DATE_EPOCH=1592242226
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kcalendarcore
-cp %{_builddir}/kcalendarcore-5.70.0/COPYING %{buildroot}/usr/share/package-licenses/kcalendarcore/3ea2520f48fa2fae70df68cc170b4298c930ef32
-cp %{_builddir}/kcalendarcore-5.70.0/cmake/COPYING-CMAKE-SCRIPTS %{buildroot}/usr/share/package-licenses/kcalendarcore/77976f406ba34009d9ba5a43b882fe6de68e5175
+cp %{_builddir}/kcalendarcore-5.71.0/COPYING %{buildroot}/usr/share/package-licenses/kcalendarcore/3ea2520f48fa2fae70df68cc170b4298c930ef32
+cp %{_builddir}/kcalendarcore-5.71.0/cmake/COPYING-CMAKE-SCRIPTS %{buildroot}/usr/share/package-licenses/kcalendarcore/77976f406ba34009d9ba5a43b882fe6de68e5175
 pushd clr-build
 %make_install
 popd
@@ -248,7 +248,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5CalendarCore.so.5
-/usr/lib64/libKF5CalendarCore.so.5.70.0
+/usr/lib64/libKF5CalendarCore.so.5.71.0
 
 %files license
 %defattr(0644,root,root,0755)
