@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kcalendarcore
-Version  : 5.102.0
-Release  : 38
-URL      : https://download.kde.org/stable/frameworks/5.102/kcalendarcore-5.102.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.102/kcalendarcore-5.102.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.102/kcalendarcore-5.102.0.tar.xz.sig
+Version  : 5.103.0
+Release  : 39
+URL      : https://download.kde.org/stable/frameworks/5.103/kcalendarcore-5.103.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.103/kcalendarcore-5.103.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.103/kcalendarcore-5.103.0.tar.xz.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause LGPL-2.0 LGPL-3.0
@@ -71,15 +71,15 @@ license components for the kcalendarcore package.
 
 
 %prep
-%setup -q -n kcalendarcore-5.102.0
-cd %{_builddir}/kcalendarcore-5.102.0
+%setup -q -n kcalendarcore-5.103.0
+cd %{_builddir}/kcalendarcore-5.103.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1673888203
+export SOURCE_DATE_EPOCH=1676303920
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -95,7 +95,7 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1673888203
+export SOURCE_DATE_EPOCH=1676303920
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kcalendarcore
 cp %{_builddir}/kcalendarcore-%{version}/LICENSES/BSD-3-Clause.txt %{buildroot}/usr/share/package-licenses/kcalendarcore/9950d3fdce1cff1f71212fb5abd31453c6ee2f8c || :
@@ -251,6 +251,7 @@ popd
 /usr/include/KF5/KCalendarCore/kcalendarcore/visitor.h
 /usr/include/KF5/KCalendarCore/kcalendarcore_version.h
 /usr/include/KF5/kcalcore_version.h
+/usr/lib64/cmake/KF5CalendarCore/FindLibIcal.cmake
 /usr/lib64/cmake/KF5CalendarCore/KF5CalendarCoreConfig.cmake
 /usr/lib64/cmake/KF5CalendarCore/KF5CalendarCoreConfigVersion.cmake
 /usr/lib64/cmake/KF5CalendarCore/KF5CalendarCoreTargets-relwithdebinfo.cmake
@@ -262,7 +263,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5CalendarCore.so.5
-/usr/lib64/libKF5CalendarCore.so.5.102.0
+/usr/lib64/libKF5CalendarCore.so.5.103.0
 
 %files license
 %defattr(0644,root,root,0755)
