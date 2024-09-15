@@ -1,1143 +1,210 @@
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::setMimeType(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::setShowInline(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::setDecodedData(QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::setUri(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::setData(QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::setLabel(QString const&)
+libKF6CalendarCore.so.6:KCalendarCore::Alarm::Alarm(KCalendarCore::Incidence*)
+libKF6CalendarCore.so.6:KCalendarCore::Alarm::customPropertyUpdated()
+libKF6CalendarCore.so.6:KCalendarCore::Alarm::setEnabled(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Alarm::setHasLocationRadius(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Alarm::setLocationRadius(int)
+libKF6CalendarCore.so.6:KCalendarCore::Alarm::setParent(KCalendarCore::Incidence*)
+libKF6CalendarCore.so.6:KCalendarCore::Alarm::setRepeatCount(int)
+libKF6CalendarCore.so.6:KCalendarCore::Alarm::setType(KCalendarCore::Alarm::Type)
+libKF6CalendarCore.so.6:KCalendarCore::Alarm::toggleAlarm()
+libKF6CalendarCore.so.6:KCalendarCore::Alarm::~Alarm()
+libKF6CalendarCore.so.6:KCalendarCore::Attachment::Attachment()
 libKF6CalendarCore.so.6:KCalendarCore::Attachment::setLocal(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::Attachment(QByteArray const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::Attachment(QString const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::Attachment(KCalendarCore::Attachment const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::Attachment()
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::Attachment(QByteArray const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::Attachment(QString const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::Attachment(KCalendarCore::Attachment const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::Attachment()
+libKF6CalendarCore.so.6:KCalendarCore::Attachment::setShowInline(bool)
 libKF6CalendarCore.so.6:KCalendarCore::Attachment::~Attachment()
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::~Attachment()
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::operator=(KCalendarCore::Attachment const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalStorage::qt_metacall(QMetaObject::Call, int, void**)
-libKF6CalendarCore.so.6:KCalendarCore::CalStorage::qt_metacast(char const*)
-libKF6CalendarCore.so.6:KCalendarCore::CalStorage::CalStorage(QSharedPointer<KCalendarCore::Calendar> const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalStorage::CalStorage(QSharedPointer<KCalendarCore::Calendar> const&)
+libKF6CalendarCore.so.6:KCalendarCore::Attendee::Attendee()
+libKF6CalendarCore.so.6:KCalendarCore::Attendee::customProperties()
+libKF6CalendarCore.so.6:KCalendarCore::Attendee::setCuType(KCalendarCore::Attendee::CuType)
+libKF6CalendarCore.so.6:KCalendarCore::Attendee::setRSVP(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Attendee::setRole(KCalendarCore::Attendee::Role)
+libKF6CalendarCore.so.6:KCalendarCore::Attendee::setStatus(KCalendarCore::Attendee::PartStat)
+libKF6CalendarCore.so.6:KCalendarCore::Attendee::~Attendee()
+libKF6CalendarCore.so.6:KCalendarCore::CalFilter::CalFilter()
+libKF6CalendarCore.so.6:KCalendarCore::CalFilter::setCompletedTimeSpan(int)
+libKF6CalendarCore.so.6:KCalendarCore::CalFilter::setCriteria(int)
+libKF6CalendarCore.so.6:KCalendarCore::CalFilter::setEnabled(bool)
+libKF6CalendarCore.so.6:KCalendarCore::CalFilter::~CalFilter()
+libKF6CalendarCore.so.6:KCalendarCore::CalFormat::application()
+libKF6CalendarCore.so.6:KCalendarCore::CalFormat::clearException()
+libKF6CalendarCore.so.6:KCalendarCore::CalFormat::createUniqueId()
+libKF6CalendarCore.so.6:KCalendarCore::CalFormat::loadedProductId()
+libKF6CalendarCore.so.6:KCalendarCore::CalFormat::productId()
+libKF6CalendarCore.so.6:KCalendarCore::CalFormat::setException(KCalendarCore::Exception*)
+libKF6CalendarCore.so.6:KCalendarCore::CalFormat::~CalFormat()
 libKF6CalendarCore.so.6:KCalendarCore::CalStorage::~CalStorage()
-libKF6CalendarCore.so.6:KCalendarCore::CalStorage::~CalStorage()
-libKF6CalendarCore.so.6:KCalendarCore::CalStorage::~CalStorage()
-libKF6CalendarCore.so.6:KCalendarCore::Conference::addFeature(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Conference::setFeatures(QList<QString> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Conference::setLanguage(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Conference::removeFeature(QString const&)
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::CalendarObserver::~CalendarObserver()
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::accessModeChanged()
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::customPropertyUpdated()
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::endBatchAdding()
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::filterChanged()
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::iconChanged()
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::idChanged()
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::isLoadingChanged()
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::nameChanged()
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::ownerChanged()
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::registerObserver(KCalendarCore::Calendar::CalendarObserver*)
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::setAccessMode(KCalendarCore::AccessMode)
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::setFilter(KCalendarCore::CalFilter*)
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::setIsLoading(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::setModified(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::setObserversEnabled(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::startBatchAdding()
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::unregisterObserver(KCalendarCore::Calendar::CalendarObserver*)
+libKF6CalendarCore.so.6:KCalendarCore::Calendar::~Calendar()
+libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::CalendarListModel(QObject*)
+libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::~CalendarListModel()
+libKF6CalendarCore.so.6:KCalendarCore::CalendarPlugin::calendarsChanged()
+libKF6CalendarCore.so.6:KCalendarCore::CalendarPluginLoader::hasPlugin()
+libKF6CalendarCore.so.6:KCalendarCore::CalendarPluginLoader::plugin()
+libKF6CalendarCore.so.6:KCalendarCore::Conference::Conference()
 libKF6CalendarCore.so.6:KCalendarCore::Conference::customProperties()
-libKF6CalendarCore.so.6:KCalendarCore::Conference::setCustomProperty(QByteArray const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Conference::setUri(QUrl const&)
-libKF6CalendarCore.so.6:KCalendarCore::Conference::setLabel(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Conference::Conference(QUrl const&, QString const&, QList<QString> const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Conference::Conference(KCalendarCore::Conference const&)
-libKF6CalendarCore.so.6:KCalendarCore::Conference::Conference()
-libKF6CalendarCore.so.6:KCalendarCore::Conference::Conference(QUrl const&, QString const&, QList<QString> const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Conference::Conference(KCalendarCore::Conference const&)
-libKF6CalendarCore.so.6:KCalendarCore::Conference::Conference()
 libKF6CalendarCore.so.6:KCalendarCore::Conference::~Conference()
-libKF6CalendarCore.so.6:KCalendarCore::Conference::~Conference()
-libKF6CalendarCore.so.6:KCalendarCore::Conference::operator=(KCalendarCore::Conference const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::fromString(KCalendarCore::RecurrenceRule*, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::fromString(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::setTimeZone(QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::toRawString(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::toICalString(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::fromRawString(QSharedPointer<KCalendarCore::Calendar> const&, QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::parseFreeBusy(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::readIncidence(QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::parseScheduleMessage(QSharedPointer<KCalendarCore::Calendar> const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::createScheduleMessage(QSharedPointer<KCalendarCore::IncidenceBase> const&, KCalendarCore::iTIPMethod)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::load(QSharedPointer<KCalendarCore::Calendar> const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::save(QSharedPointer<KCalendarCore::Calendar> const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::toString(KCalendarCore::RecurrenceRule*)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::toString(QSharedPointer<KCalendarCore::Calendar> const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::toString(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::ICalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::ICalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::~ICalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::~ICalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::~ICalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::Incidences::dateLessThan(QSharedPointer<KCalendarCore::Incidence> const&, QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidences::dateMoreThan(QSharedPointer<KCalendarCore::Incidence> const&, QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidences::createdLessThan(QSharedPointer<KCalendarCore::Incidence> const&, QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidences::createdMoreThan(QSharedPointer<KCalendarCore::Incidence> const&, QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidences::summaryLessThan(QSharedPointer<KCalendarCore::Incidence> const&, QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidences::summaryMoreThan(QSharedPointer<KCalendarCore::Incidence> const&, QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidences::categoriesLessThan(QSharedPointer<KCalendarCore::Incidence> const&, QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidences::categoriesMoreThan(QSharedPointer<KCalendarCore::Incidence> const&, QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setEndDate(QDate const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setExDates(QList<QDate> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setMonthly(int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::shiftTimes(QTimeZone const&, QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addObserver(KCalendarCore::Recurrence::RecurrenceObserver*)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::deleteRRule(KCalendarCore::RecurrenceRule*)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::removeRRule(KCalendarCore::RecurrenceRule*)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setDuration(int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setMinutely(int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::unsetRecurs()
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addRDateTime(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addYearlyDay(int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addYearlyPos(short, QBitArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::deleteExRule(KCalendarCore::RecurrenceRule*)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::removeExRule(KCalendarCore::RecurrenceRule*)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setFrequency(int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setYearlyDay(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setYearlyPos(QList<KCalendarCore::RecurrenceRule::WDayPos> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addExDateTime(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addMonthlyPos(short, QBitArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addMonthlyPos(short, unsigned short)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addWeeklyDays(QBitArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addYearlyDate(int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setMonthlyPos(QList<KCalendarCore::RecurrenceRule::WDayPos> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setRDateTimes(QList<QDateTime> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setYearlyDate(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addMonthlyDate(short)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addYearlyMonth(short)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::recurrenceType(KCalendarCore::RecurrenceRule const*)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::removeObserver(KCalendarCore::Recurrence::RecurrenceObserver*)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setEndDateTime(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setExDateTimes(QList<QDateTime> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setMonthlyDate(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setYearlyMonth(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setRecurReadOnly(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setStartDateTime(QDateTime const&, bool)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::recurrenceChanged(KCalendarCore::RecurrenceRule*)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::RecurrenceObserver::~RecurrenceObserver()
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::RecurrenceObserver::~RecurrenceObserver()
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::RecurrenceObserver::~RecurrenceObserver()
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addRDateTimePeriod(KCalendarCore::Period const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setNewRecurrenceType(KCalendarCore::RecurrenceRule::PeriodType, int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::clear()
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::updated()
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addRDate(QDate const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addRRule(KCalendarCore::RecurrenceRule*)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setDaily(int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addExDate(QDate const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addExRule(KCalendarCore::RecurrenceRule*)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setAllDay(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setHourly(int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setRDates(QList<QDate> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setWeekly(int, QBitArray const&, int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setWeekly(int, int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setYearly(int)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::Recurrence(KCalendarCore::Recurrence const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::Recurrence()
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::Recurrence(KCalendarCore::Recurrence const&)
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::Recurrence()
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::~Recurrence()
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::~Recurrence()
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::~Recurrence()
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::ISOToQDate(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::numFromDay(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::qDateToISO(QDate const&)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::VTodoToEvent(VObject*)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::VEventToEvent(VObject*)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::fromRawString(QSharedPointer<KCalendarCore::Calendar> const&, QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::ISOToQDateTime(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::qDateTimeToISO(QDateTime const&, bool)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::parseTZOffsetISO8601(QString const&, int&)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::readCustomProperties(VObject*, QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::writeCustomProperties(VObject*, QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::load(QSharedPointer<KCalendarCore::Calendar> const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::save(QSharedPointer<KCalendarCore::Calendar> const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::populate(VObject*)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::toString(QSharedPointer<KCalendarCore::Calendar> const&)
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::VCalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::VCalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::~VCalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::~VCalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::~VCalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::qt_metacall(QMetaObject::Call, int, void**)
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::qt_metacast(char const*)
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::setFileName(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::setSaveFormat(KCalendarCore::CalFormat*)
+libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::CustomProperties()
+libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::customPropertyUpdate()
+libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::customPropertyUpdated()
+libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::~CustomProperties()
+libKF6CalendarCore.so.6:KCalendarCore::Duration::Duration()
+libKF6CalendarCore.so.6:KCalendarCore::Duration::operator*=(int)
+libKF6CalendarCore.so.6:KCalendarCore::Duration::operator/=(int)
+libKF6CalendarCore.so.6:KCalendarCore::Duration::~Duration()
+libKF6CalendarCore.so.6:KCalendarCore::Event::Event()
+libKF6CalendarCore.so.6:KCalendarCore::Event::deserialize(QDataStream&)
+libKF6CalendarCore.so.6:KCalendarCore::Event::eventMimeType()
+libKF6CalendarCore.so.6:KCalendarCore::Event::setAllDay(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Event::setTransparency(KCalendarCore::Event::Transparency)
+libKF6CalendarCore.so.6:KCalendarCore::Event::~Event()
+libKF6CalendarCore.so.6:KCalendarCore::Exception::~Exception()
+libKF6CalendarCore.so.6:KCalendarCore::FileStorage::close()
 libKF6CalendarCore.so.6:KCalendarCore::FileStorage::load()
 libKF6CalendarCore.so.6:KCalendarCore::FileStorage::open()
 libKF6CalendarCore.so.6:KCalendarCore::FileStorage::save()
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::close()
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::FileStorage(QSharedPointer<KCalendarCore::Calendar> const&, QString const&, KCalendarCore::CalFormat*)
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::FileStorage(QSharedPointer<KCalendarCore::Calendar> const&, QString const&, KCalendarCore::CalFormat*)
+libKF6CalendarCore.so.6:KCalendarCore::FileStorage::setSaveFormat(KCalendarCore::CalFormat*)
 libKF6CalendarCore.so.6:KCalendarCore::FileStorage::~FileStorage()
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::~FileStorage()
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::~FileStorage()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyCache::virtual_hook(int, void*)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyCache::~FreeBusyCache()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyCache::~FreeBusyCache()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyCache::~FreeBusyCache()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::addComment(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::addContact(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::endUpdates()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setDtStart(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::shiftTimes(QTimeZone const&, QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::addAttendee(KCalendarCore::Attendee const&, bool)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::deserialize(QDataStream&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setDuration(KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setReadOnly(bool)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setAttendees(QList<KCalendarCore::Attendee> const&, bool)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setOrganizer(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setOrganizer(KCalendarCore::Person const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::startUpdates()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::clearComments()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::clearContacts()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::removeComment(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::removeContact(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setFieldDirty(KCalendarCore::IncidenceBase::Field)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::clearAttendees()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setDirtyFields(QSet<KCalendarCore::IncidenceBase::Field> const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setHasDuration(bool)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setLastModified(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::registerObserver(KCalendarCore::IncidenceBase::IncidenceObserver*)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::resetDirtyFields()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::IncidenceObserver::~IncidenceObserver()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::IncidenceObserver::~IncidenceObserver()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::IncidenceObserver::~IncidenceObserver()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::unRegisterObserver(KCalendarCore::IncidenceBase::IncidenceObserver*)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::customPropertyUpdate()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::customPropertyUpdated()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::magicSerializationIdentifier()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::accept(KCalendarCore::Visitor&, QSharedPointer<KCalendarCore::IncidenceBase> const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::assign(KCalendarCore::IncidenceBase const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setUid(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setUrl(QUrl const&)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::update()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::updated()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setAllDay(bool)
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::~IncidenceBase()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::~IncidenceBase()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::~IncidenceBase()
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::operator=(KCalendarCore::IncidenceBase const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalendarPlugin::qt_metacall(QMetaObject::Call, int, void**)
-libKF6CalendarCore.so.6:KCalendarCore::CalendarPlugin::qt_metacast(char const*)
-libKF6CalendarCore.so.6:KCalendarCore::CalendarPlugin::calendarsChanged()
-libKF6CalendarCore.so.6:KCalendarCore::CalendarPlugin::CalendarPlugin(QObject*, QList<QVariant> const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalendarPlugin::CalendarPlugin(QObject*, QList<QVariant> const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::setSummary(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::setLocation(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::setType(KCalendarCore::FreeBusyPeriod::FreeBusyType)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::FreeBusyPeriod(QDateTime const&, KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::FreeBusyPeriod(QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::FreeBusyPeriod(KCalendarCore::Period const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::FreeBusyPeriod(KCalendarCore::FreeBusyPeriod const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::FreeBusyPeriod()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::FreeBusyPeriod(QDateTime const&, KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::FreeBusyPeriod(QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::FreeBusyPeriod(KCalendarCore::Period const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::FreeBusyPeriod(KCalendarCore::FreeBusyPeriod const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::FreeBusyPeriod()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::~FreeBusyPeriod()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::~FreeBusyPeriod()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::operator=(KCalendarCore::FreeBusyPeriod const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::addJournal(QSharedPointer<KCalendarCore::Journal> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::deleteTodo(QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::deleteEvent(QSharedPointer<KCalendarCore::Event> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::qt_metacall(QMetaObject::Call, int, void**)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::qt_metacast(char const*)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::addIncidence(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::virtual_hook(int, void*)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::deleteJournal(QSharedPointer<KCalendarCore::Journal> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::doSetTimeZone(QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::deleteIncidence(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::incidenceUpdate(QString const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::incidenceUpdated(QString const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::deleteTodoInstances(QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::deleteEventInstances(QSharedPointer<KCalendarCore::Event> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::deleteJournalInstances(QSharedPointer<KCalendarCore::Journal> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::deleteIncidenceInstances(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::setUpdateLastModifiedOnChange(bool)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::addTodo(QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::addEvent(QSharedPointer<KCalendarCore::Event> const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::MemoryCalendar(QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::MemoryCalendar(QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::MemoryCalendar(QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::MemoryCalendar(QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::~MemoryCalendar()
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::~MemoryCalendar()
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::~MemoryCalendar()
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setByHours(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setStartDt(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::shiftTimes(QTimeZone const&, QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::addObserver(KCalendarCore::RecurrenceRule::RuleObserver*)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setByMonths(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setBySetPos(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setDuration(int)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setReadOnly(bool)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::RuleObserver::~RuleObserver()
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::RuleObserver::~RuleObserver()
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::RuleObserver::~RuleObserver()
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setByMinutes(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setBySeconds(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setFrequency(int)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setWeekStart(short)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setByYearDays(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::removeObserver(KCalendarCore::RecurrenceRule::RuleObserver*)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setByMonthDays(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setByWeekNumbers(QList<int> const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setRecurrenceType(KCalendarCore::RecurrenceRule::PeriodType)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::clear()
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::WDayPos::setDay(short)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::WDayPos::setPos(int)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::WDayPos::WDayPos(int, short)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::WDayPos::WDayPos(int, short)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setDirty()
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setEndDt(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setRRule(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setAllDay(bool)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setByDays(QList<KCalendarCore::RecurrenceRule::WDayPos> const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::RecurrenceRule(KCalendarCore::RecurrenceRule const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::RecurrenceRule()
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::RecurrenceRule(KCalendarCore::RecurrenceRule const&)
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::RecurrenceRule()
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::~RecurrenceRule()
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::~RecurrenceRule()
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::operator=(KCalendarCore::RecurrenceRule const&)
-libKF6CalendarCore.so.6:KCalendarCore::ScheduleMessage::methodName(KCalendarCore::iTIPMethod)
-libKF6CalendarCore.so.6:KCalendarCore::ScheduleMessage::ScheduleMessage(QSharedPointer<KCalendarCore::IncidenceBase> const&, KCalendarCore::iTIPMethod, KCalendarCore::ScheduleMessage::Status)
-libKF6CalendarCore.so.6:KCalendarCore::ScheduleMessage::ScheduleMessage(QSharedPointer<KCalendarCore::IncidenceBase> const&, KCalendarCore::iTIPMethod, KCalendarCore::ScheduleMessage::Status)
-libKF6CalendarCore.so.6:KCalendarCore::ScheduleMessage::~ScheduleMessage()
-libKF6CalendarCore.so.6:KCalendarCore::ScheduleMessage::~ScheduleMessage()
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::setCustomProperty(QByteArray const&, QByteArray const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::customPropertyName(QByteArray const&, QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::setCustomProperties(QMap<QByteArray, QString> const&)
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::customPropertyUpdate()
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::removeCustomProperty(QByteArray const&, QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::customPropertyUpdated()
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::setNonKDECustomProperty(QByteArray const&, QString const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::removeNonKDECustomProperty(QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::CustomProperties(KCalendarCore::CustomProperties const&)
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::CustomProperties()
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::CustomProperties(KCalendarCore::CustomProperties const&)
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::CustomProperties()
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::~CustomProperties()
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::~CustomProperties()
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::~CustomProperties()
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::operator=(KCalendarCore::CustomProperties const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::qt_metacall(QMetaObject::Call, int, void**)
-libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::qt_metacast(char const*)
-libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::CalendarListModel(QObject*)
-libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::CalendarListModel(QObject*)
-libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::~CalendarListModel()
-libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::~CalendarListModel()
-libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::~CalendarListModel()
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneCache::insert(QByteArray const&, KCalendarCore::ICalTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneCache::ICalTimeZoneCache()
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneCache::ICalTimeZoneCache()
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::parsePhase(icalcomponent_impl*, bool, KCalendarCore::ICalTimeZonePhase&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::parseTimeZone(icalcomponent_impl*)
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::resolveICalTimeZone(KCalendarCore::ICalTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::updateTzEarliestDate(QSharedPointer<KCalendarCore::IncidenceBase> const&, QHash<QTimeZone, QDateTime>*)
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::icaltimezoneFromQTimeZone(QTimeZone const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::vcaltimezoneFromQTimeZone(QTimeZone const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::icalcomponentFromQTimeZone(QTimeZone const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::parse(icalcomponent_impl*)
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::ICalTimeZoneParser(KCalendarCore::ICalTimeZoneCache*)
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::ICalTimeZoneParser(KCalendarCore::ICalTimeZoneCache*)
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::next()
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::OccurrenceIterator(KCalendarCore::Calendar const&, QSharedPointer<KCalendarCore::Incidence> const&, QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::OccurrenceIterator(KCalendarCore::Calendar const&, QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::OccurrenceIterator(KCalendarCore::Calendar const&, QSharedPointer<KCalendarCore::Incidence> const&, QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::OccurrenceIterator(KCalendarCore::Calendar const&, QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::~OccurrenceIterator()
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::~OccurrenceIterator()
-libKF6CalendarCore.so.6:KCalendarCore::CalendarPluginLoader::plugin()
-libKF6CalendarCore.so.6:KCalendarCore::CalendarPluginLoader::hasPlugin()
-libKF6CalendarCore.so.6:KCalendarCore::deserializeKDateTimeAsQDateTime(QDataStream&)
-libKF6CalendarCore.so.6:KCalendarCore::deserializeKDateTimeAsQDateTime(QDataStream&, QDateTime&)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::shiftTimes(QTimeZone const&, QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::deserialize(QDataStream&)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::setDateTime(QDateTime const&, KCalendarCore::IncidenceBase::DateTimeRole)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::setCompleted(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::setCompleted(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::todoMimeType()
-libKF6CalendarCore.so.6:KCalendarCore::Todo::virtual_hook(KCalendarCore::IncidenceBase::VirtualHook, void*)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::setDtRecurrence(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::setPercentComplete(int)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::accept(KCalendarCore::Visitor&, QSharedPointer<KCalendarCore::IncidenceBase> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::assign(KCalendarCore::IncidenceBase const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::setDtDue(QDateTime const&, bool)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::setAllDay(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::Todo(KCalendarCore::Incidence const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::Todo(KCalendarCore::Todo const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::Todo()
-libKF6CalendarCore.so.6:KCalendarCore::Todo::Todo(KCalendarCore::Incidence const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::Todo(KCalendarCore::Todo const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todo::Todo()
-libKF6CalendarCore.so.6:KCalendarCore::Todo::~Todo()
-libKF6CalendarCore.so.6:KCalendarCore::Todo::~Todo()
-libKF6CalendarCore.so.6:KCalendarCore::Todo::~Todo()
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setEnabled(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::shiftTimes(QTimeZone const&, QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setMailText(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::toggleAlarm()
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setAudioFile(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setEndOffset(KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::virtual_hook(int, void*)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setAudioAlarm(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setEmailAlarm(QString const&, QString const&, QList<KCalendarCore::Person> const&, QList<QString> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setSnoozeTime(KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::addMailAddress(KCalendarCore::Person const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setMailAddress(KCalendarCore::Person const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setMailSubject(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setProgramFile(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setRepeatCount(int)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setStartOffset(KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setDisplayAlarm(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setMailAddresses(QList<KCalendarCore::Person> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::addMailAttachment(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setLocationRadius(int)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setMailAttachment(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setProcedureAlarm(QString const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setMailAttachments(QList<QString> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setProgramArguments(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setHasLocationRadius(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::customPropertyUpdated()
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setText(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setTime(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setType(KCalendarCore::Alarm::Type)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::setParent(KCalendarCore::Incidence*)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::Alarm(KCalendarCore::Incidence*)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::Alarm(KCalendarCore::Alarm const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::Alarm(KCalendarCore::Incidence*)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::Alarm(KCalendarCore::Alarm const&)
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::~Alarm()
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::~Alarm()
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::~Alarm()
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::operator=(KCalendarCore::Alarm const&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::setDtStart(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::shiftTimes(QTimeZone const&, QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::deserialize(QDataStream&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::setDateTime(QDateTime const&, KCalendarCore::IncidenceBase::DateTimeRole)
-libKF6CalendarCore.so.6:KCalendarCore::Event::setDuration(KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::virtual_hook(KCalendarCore::IncidenceBase::VirtualHook, void*)
-libKF6CalendarCore.so.6:KCalendarCore::Event::eventMimeType()
-libKF6CalendarCore.so.6:KCalendarCore::Event::setTransparency(KCalendarCore::Event::Transparency)
-libKF6CalendarCore.so.6:KCalendarCore::Event::accept(KCalendarCore::Visitor&, QSharedPointer<KCalendarCore::IncidenceBase> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::assign(KCalendarCore::IncidenceBase const&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::setDtEnd(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::setAllDay(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Event::Event(KCalendarCore::Incidence const&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::Event(KCalendarCore::Event const&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::Event()
-libKF6CalendarCore.so.6:KCalendarCore::Event::Event(KCalendarCore::Incidence const&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::Event(KCalendarCore::Event const&)
-libKF6CalendarCore.so.6:KCalendarCore::Event::Event()
-libKF6CalendarCore.so.6:KCalendarCore::Event::~Event()
-libKF6CalendarCore.so.6:KCalendarCore::Event::~Event()
-libKF6CalendarCore.so.6:KCalendarCore::Event::~Event()
-libKF6CalendarCore.so.6:KCalendarCore::Todos::createdLessThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todos::createdMoreThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todos::dueDateLessThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todos::dueDateMoreThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todos::percentLessThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todos::percentMoreThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todos::summaryLessThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todos::summaryMoreThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todos::priorityLessThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todos::priorityMoreThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todos::startDateLessThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Todos::startDateMoreThan(QSharedPointer<KCalendarCore::Todo> const&, QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::qHash(KCalendarCore::Period const&, unsigned long)
-libKF6CalendarCore.so.6:KCalendarCore::qHash(KCalendarCore::Person const&, unsigned long)
-libKF6CalendarCore.so.6:KCalendarCore::Events::endDateLessThan(QSharedPointer<KCalendarCore::Event> const&, QSharedPointer<KCalendarCore::Event> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Events::endDateMoreThan(QSharedPointer<KCalendarCore::Event> const&, QSharedPointer<KCalendarCore::Event> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Events::summaryLessThan(QSharedPointer<KCalendarCore::Event> const&, QSharedPointer<KCalendarCore::Event> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Events::summaryMoreThan(QSharedPointer<KCalendarCore::Event> const&, QSharedPointer<KCalendarCore::Event> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Events::startDateLessThan(QSharedPointer<KCalendarCore::Event> const&, QSharedPointer<KCalendarCore::Event> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Events::startDateMoreThan(QSharedPointer<KCalendarCore::Event> const&, QSharedPointer<KCalendarCore::Event> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Period::shiftTimes(QTimeZone const&, QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::Period::Period(QDateTime const&, KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::Period::Period(QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Period::Period(KCalendarCore::Period const&)
-libKF6CalendarCore.so.6:KCalendarCore::Period::Period()
-libKF6CalendarCore.so.6:KCalendarCore::Period::Period(QDateTime const&, KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::Period::Period(QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Period::Period(KCalendarCore::Period const&)
-libKF6CalendarCore.so.6:KCalendarCore::Period::Period()
-libKF6CalendarCore.so.6:KCalendarCore::Period::~Period()
-libKF6CalendarCore.so.6:KCalendarCore::Period::~Period()
-libKF6CalendarCore.so.6:KCalendarCore::Period::operator=(KCalendarCore::Period const&)
-libKF6CalendarCore.so.6:KCalendarCore::Person::fromFullName(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Person::isValidEmail(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Person::setName(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Person::setEmail(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Person::Person(QString const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Person::Person(KCalendarCore::Person const&)
-libKF6CalendarCore.so.6:KCalendarCore::Person::Person()
-libKF6CalendarCore.so.6:KCalendarCore::Person::Person(QString const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Person::Person(KCalendarCore::Person const&)
-libKF6CalendarCore.so.6:KCalendarCore::Person::Person()
-libKF6CalendarCore.so.6:KCalendarCore::Person::~Person()
-libKF6CalendarCore.so.6:KCalendarCore::Person::~Person()
-libKF6CalendarCore.so.6:KCalendarCore::Person::~Person()
-libKF6CalendarCore.so.6:KCalendarCore::Person::operator=(KCalendarCore::Person const&)
-libKF6CalendarCore.so.6:KCalendarCore::Journal::deserialize(QDataStream&)
-libKF6CalendarCore.so.6:KCalendarCore::Journal::setDateTime(QDateTime const&, KCalendarCore::IncidenceBase::DateTimeRole)
-libKF6CalendarCore.so.6:KCalendarCore::Journal::virtual_hook(KCalendarCore::IncidenceBase::VirtualHook, void*)
-libKF6CalendarCore.so.6:KCalendarCore::Journal::journalMimeType()
-libKF6CalendarCore.so.6:KCalendarCore::Journal::accept(KCalendarCore::Visitor&, QSharedPointer<KCalendarCore::IncidenceBase> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Journal::assign(KCalendarCore::IncidenceBase const&)
-libKF6CalendarCore.so.6:KCalendarCore::Journal::Journal(KCalendarCore::Journal const&)
-libKF6CalendarCore.so.6:KCalendarCore::Journal::Journal()
-libKF6CalendarCore.so.6:KCalendarCore::Journal::Journal(KCalendarCore::Journal const&)
-libKF6CalendarCore.so.6:KCalendarCore::Journal::Journal()
-libKF6CalendarCore.so.6:KCalendarCore::Journal::~Journal()
-libKF6CalendarCore.so.6:KCalendarCore::Journal::~Journal()
-libKF6CalendarCore.so.6:KCalendarCore::Journal::~Journal()
-libKF6CalendarCore.so.6:KCalendarCore::Visitor::visit(QSharedPointer<KCalendarCore::Todo> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Visitor::visit(QSharedPointer<KCalendarCore::Event> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Visitor::visit(QSharedPointer<KCalendarCore::Journal> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Visitor::visit(QSharedPointer<KCalendarCore::FreeBusy> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Visitor::Visitor()
-libKF6CalendarCore.so.6:KCalendarCore::Visitor::Visitor()
-libKF6CalendarCore.so.6:KCalendarCore::Visitor::~Visitor()
-libKF6CalendarCore.so.6:KCalendarCore::Visitor::~Visitor()
-libKF6CalendarCore.so.6:KCalendarCore::Visitor::~Visitor()
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::setDelegate(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::setDelegator(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::customProperties()
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::setCustomProperty(QByteArray const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::setUid(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::setName(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::setRSVP(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::setRole(KCalendarCore::Attendee::Role)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::setEmail(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::setCuType(KCalendarCore::Attendee::CuType)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::setCuType(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::setStatus(KCalendarCore::Attendee::PartStat)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::Attendee(QString const&, QString const&, bool, KCalendarCore::Attendee::PartStat, KCalendarCore::Attendee::Role, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::Attendee(KCalendarCore::Attendee const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::Attendee()
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::Attendee(QString const&, QString const&, bool, KCalendarCore::Attendee::PartStat, KCalendarCore::Attendee::Role, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::Attendee(KCalendarCore::Attendee const&)
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::Attendee()
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::~Attendee()
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::~Attendee()
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::operator=(KCalendarCore::Attendee const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::shiftTimes(QTimeZone const&, QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::sortEvents(QList<QSharedPointer<KCalendarCore::Event> >&&, KCalendarCore::EventSortField, KCalendarCore::SortDirection)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::beginChange(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::iconChanged()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::nameChanged()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::qt_metacall(QMetaObject::Call, int, void**)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::qt_metacast(char const*)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setModified(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setTimeZone(QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::addIncidence(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::ownerChanged()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setIsLoading(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setProductId(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::sortJournals(QList<QSharedPointer<KCalendarCore::Journal> >&&, KCalendarCore::JournalSortField, KCalendarCore::SortDirection)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::virtual_hook(int, void*)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::doSetTimeZone(QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::filterChanged()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setAccessMode(KCalendarCore::AccessMode)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setTimeZoneId(QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::endBatchAdding()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::createException(QSharedPointer<KCalendarCore::Incidence> const&, QDateTime const&, bool)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::deleteIncidence(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::CalendarObserver::calendarModified(bool, KCalendarCore::Calendar*)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::CalendarObserver::calendarIncidenceAdded(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::CalendarObserver::calendarIncidenceChanged(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::CalendarObserver::calendarIncidenceDeleted(QSharedPointer<KCalendarCore::Incidence> const&, KCalendarCore::Calendar const*)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::CalendarObserver::calendarIncidenceAboutToBeDeleted(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::CalendarObserver::calendarIncidenceAdditionCanceled(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::CalendarObserver::~CalendarObserver()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::CalendarObserver::~CalendarObserver()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::CalendarObserver::~CalendarObserver()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::incidenceUpdated(QString const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::isLoadingChanged()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::registerObserver(KCalendarCore::Calendar::CalendarObserver*)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::startBatchAdding()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::accessModeChanged()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::mergeIncidenceList(QList<QSharedPointer<KCalendarCore::Event> > const&, QList<QSharedPointer<KCalendarCore::Todo> > const&, QList<QSharedPointer<KCalendarCore::Journal> > const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::unregisterObserver(KCalendarCore::Calendar::CalendarObserver*)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setObserversEnabled(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::notifyIncidenceAdded(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::customPropertyUpdated()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::notifyIncidenceChanged(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::notifyIncidenceDeleted(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::notifyIncidenceAboutToBeDeleted(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::notifyIncidenceAdditionCanceled(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setId(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setIcon(QIcon const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setName(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setOwner(KCalendarCore::Person const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::endChange(QSharedPointer<KCalendarCore::Incidence> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::idChanged()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::setFilter(KCalendarCore::CalFilter*)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::sortTodos(QList<QSharedPointer<KCalendarCore::Todo> >&&, KCalendarCore::TodoSortField, KCalendarCore::SortDirection)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::Calendar(QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::Calendar(QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::Calendar(QByteArray const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::Calendar(QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::~Calendar()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::~Calendar()
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::~Calendar()
-libKF6CalendarCore.so.6:KCalendarCore::Duration::Duration(QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::Duration(QDateTime const&, QDateTime const&, KCalendarCore::Duration::Type)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::Duration(KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::Duration(int, KCalendarCore::Duration::Type)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::Duration()
-libKF6CalendarCore.so.6:KCalendarCore::Duration::Duration(QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::Duration(QDateTime const&, QDateTime const&, KCalendarCore::Duration::Type)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::Duration(KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::Duration(int, KCalendarCore::Duration::Type)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::Duration()
-libKF6CalendarCore.so.6:KCalendarCore::Duration::~Duration()
-libKF6CalendarCore.so.6:KCalendarCore::Duration::~Duration()
-libKF6CalendarCore.so.6:KCalendarCore::Duration::operator=(KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::operator/=(int)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::operator-=(KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::operator*=(int)
-libKF6CalendarCore.so.6:KCalendarCore::Duration::operator+=(KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::addPeriods(QList<KCalendarCore::FreeBusyPeriod> const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::addPeriods(QList<KCalendarCore::Period> const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::setDtStart(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::shiftTimes(QTimeZone const&, QTimeZone const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::setDateTime(QDateTime const&, KCalendarCore::IncidenceBase::DateTimeRole)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::virtual_hook(KCalendarCore::IncidenceBase::VirtualHook, void*)
+libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy()
 libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::freeBusyMimeType()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::merge(QSharedPointer<KCalendarCore::FreeBusy> const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::accept(KCalendarCore::Visitor&, QSharedPointer<KCalendarCore::IncidenceBase> const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::assign(KCalendarCore::IncidenceBase const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::setDtEnd(QDateTime const&)
 libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::sortList()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::addPeriod(QDateTime const&, KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::addPeriod(QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy(QList<QSharedPointer<KCalendarCore::Event> > const&, QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy(QList<KCalendarCore::FreeBusyPeriod> const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy(QList<KCalendarCore::Period> const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy(QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy(KCalendarCore::FreeBusy const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy(QList<QSharedPointer<KCalendarCore::Event> > const&, QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy(QList<KCalendarCore::FreeBusyPeriod> const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy(QList<KCalendarCore::Period> const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy(QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy(KCalendarCore::FreeBusy const&)
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::FreeBusy()
 libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::~FreeBusy()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::~FreeBusy()
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::~FreeBusy()
-libKF6CalendarCore.so.6:KCalendarCore::Journals::dateLessThan(QSharedPointer<KCalendarCore::Journal> const&, QSharedPointer<KCalendarCore::Journal> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Journals::dateMoreThan(QSharedPointer<KCalendarCore::Journal> const&, QSharedPointer<KCalendarCore::Journal> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Journals::summaryLessThan(QSharedPointer<KCalendarCore::Journal> const&, QSharedPointer<KCalendarCore::Journal> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Journals::summaryMoreThan(QSharedPointer<KCalendarCore::Journal> const&, QSharedPointer<KCalendarCore::Journal> const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::setEnabled(bool)
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::setCriteria(int)
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::setEmailList(QList<QString> const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::setCategoryList(QList<QString> const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::setCompletedTimeSpan(int)
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::setName(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::CalFilter(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::CalFilter()
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::CalFilter(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::CalFilter()
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::~CalFilter()
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::~CalFilter()
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::fromString(QSharedPointer<KCalendarCore::Calendar> const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::application()
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::setException(KCalendarCore::Exception*)
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::clearException()
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::createUniqueId()
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::setApplication(QString const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::loadedProductId()
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::setLoadedProductId(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::productId()
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::~CalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::~CalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::~CalFormat()
-libKF6CalendarCore.so.6:KCalendarCore::Exception::Exception(KCalendarCore::Exception::ErrorCode, QList<QString> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Exception::Exception(KCalendarCore::Exception::ErrorCode, QList<QString> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Exception::~Exception()
-libKF6CalendarCore.so.6:KCalendarCore::Exception::~Exception()
-libKF6CalendarCore.so.6:KCalendarCore::Exception::~Exception()
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setCreated(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setDtStart(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setSecrecy(KCalendarCore::Incidence::Secrecy)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setSummary(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setSummary(QString const&, bool)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::shiftTimes(QTimeZone const&, QTimeZone const&)
+libKF6CalendarCore.so.6:KCalendarCore::FreeBusyCache::~FreeBusyCache()
+libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::FreeBusyPeriod()
+libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::setType(KCalendarCore::FreeBusyPeriod::FreeBusyType)
+libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::~FreeBusyPeriod()
+libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::ICalFormat()
+libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::toString(KCalendarCore::RecurrenceRule*)
+libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::~ICalFormat()
+libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneCache::ICalTimeZoneCache()
+libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::ICalTimeZoneParser(KCalendarCore::ICalTimeZoneCache*)
+libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::parse(icalcomponent_impl*)
+libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneParser::parseTimeZone(icalcomponent_impl*)
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::Incidence(KCalendarCore::IncidencePrivate*)
 libKF6CalendarCore.so.6:KCalendarCore::Incidence::clearAlarms()
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::clearAttachments()
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::clearConferences()
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::clearRecurrence()
 libKF6CalendarCore.so.6:KCalendarCore::Incidence::deserialize(QDataStream&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::removeAlarm(QSharedPointer<KCalendarCore::Alarm> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setLocation(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setLocation(QString const&, bool)
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::mimeTypes()
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::newAlarm()
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::recreate()
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::recurrenceUpdated(KCalendarCore::Recurrence*)
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::setAllDay(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::setGeoLatitude(float)
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::setGeoLongitude(float)
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::setLocalOnly(bool)
 libKF6CalendarCore.so.6:KCalendarCore::Incidence::setPriority(int)
 libKF6CalendarCore.so.6:KCalendarCore::Incidence::setReadOnly(bool)
 libKF6CalendarCore.so.6:KCalendarCore::Incidence::setRevision(int)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setLocalOnly(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setRelatedTo(QString const&, KCalendarCore::Incidence::RelType)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setResources(QList<QString> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::addAttachment(KCalendarCore::Attachment const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::addConference(KCalendarCore::Conference const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setCategories(QList<QString> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setCategories(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setConferences(QList<KCalendarCore::Conference> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setDescription(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setDescription(QString const&, bool)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setGeoLatitude(float)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::clearRecurrence()
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setCustomStatus(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setGeoLongitude(float)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setLastModified(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setRecurrenceId(QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setSchedulingID(QString const&, QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::clearAttachments()
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::clearConferences()
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setThisAndFuture(bool)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::deleteAttachments(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::recurrenceUpdated(KCalendarCore::Recurrence*)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setAltDescription(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::assign(KCalendarCore::IncidenceBase const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::addAlarm(QSharedPointer<KCalendarCore::Alarm> const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::newAlarm()
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::recreate()
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setColor(QString const&)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::mimeTypes()
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::setAllDay(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::setSecrecy(KCalendarCore::Incidence::Secrecy)
 libKF6CalendarCore.so.6:KCalendarCore::Incidence::setStatus(KCalendarCore::Incidence::Status)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::Incidence(KCalendarCore::IncidencePrivate*)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::Incidence(KCalendarCore::Incidence const&, KCalendarCore::IncidencePrivate*)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::Incidence(KCalendarCore::IncidencePrivate*)
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::Incidence(KCalendarCore::Incidence const&, KCalendarCore::IncidencePrivate*)
+libKF6CalendarCore.so.6:KCalendarCore::Incidence::setThisAndFuture(bool)
 libKF6CalendarCore.so.6:KCalendarCore::Incidence::~Incidence()
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::~Incidence()
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::~Incidence()
-libKF6CalendarCore.so.6:KCalendarCore::identical(QDateTime const&, QDateTime const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, KCalendarCore::RecurrenceRule const*)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, KCalendarCore::Recurrence*)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, QSharedPointer<KCalendarCore::IncidenceBase> const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, QSharedPointer<KCalendarCore::Alarm> const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, QSharedPointer<KCalendarCore::FreeBusy> const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, KCalendarCore::Attachment const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, KCalendarCore::Conference const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, KCalendarCore::FreeBusyPeriod const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, KCalendarCore::RecurrenceRule::WDayPos const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, KCalendarCore::CustomProperties const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, KCalendarCore::Period const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, KCalendarCore::Person const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, KCalendarCore::Attendee const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator<<(QDataStream&, KCalendarCore::Duration const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, KCalendarCore::RecurrenceRule const*)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, KCalendarCore::Recurrence*)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, QSharedPointer<KCalendarCore::IncidenceBase>&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, QSharedPointer<KCalendarCore::FreeBusy>&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, QSharedPointer<KCalendarCore::Alarm> const&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, KCalendarCore::Attachment&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, KCalendarCore::Conference&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, KCalendarCore::FreeBusyPeriod&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, KCalendarCore::RecurrenceRule::WDayPos&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, KCalendarCore::CustomProperties&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, KCalendarCore::Period&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, KCalendarCore::Person&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, KCalendarCore::Attendee&)
-libKF6CalendarCore.so.6:KCalendarCore::operator>>(QDataStream&, KCalendarCore::Duration&)
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::showInline() const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::decodedData() const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::uri() const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::data() const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::size() const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::isUri() const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::label() const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::isEmpty() const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::isLocal() const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::isBinary() const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::mimeType() const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::operator==(KCalendarCore::Attachment const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Attachment::operator!=(KCalendarCore::Attachment const&) const
-libKF6CalendarCore.so.6:KCalendarCore::CalStorage::metaObject() const
-libKF6CalendarCore.so.6:KCalendarCore::CalStorage::calendar() const
-libKF6CalendarCore.so.6:KCalendarCore::Conference::customProperties() const
-libKF6CalendarCore.so.6:KCalendarCore::Conference::uri() const
-libKF6CalendarCore.so.6:KCalendarCore::Conference::label() const
-libKF6CalendarCore.so.6:KCalendarCore::Conference::isNull() const
-libKF6CalendarCore.so.6:KCalendarCore::Conference::features() const
-libKF6CalendarCore.so.6:KCalendarCore::Conference::language() const
-libKF6CalendarCore.so.6:KCalendarCore::Conference::operator==(KCalendarCore::Conference const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Conference::operator!=(KCalendarCore::Conference const&) const
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::timeZoneId() const
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::durationFromString(QString const&) const
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::timeZone() const
-libKF6CalendarCore.so.6:KCalendarCore::ICalFormat::toString(KCalendarCore::Duration const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::durationTo(QDate const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::durationTo(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::rDateTimes() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::yearMonths() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::endDateTime() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::exDateTimes() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::defaultRRule(bool) const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::recurTimesOn(QDate const&, QTimeZone const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::recurReadOnly() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::startDateTime() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::yearPositions() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::monthPositions() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::recurrenceType() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::getNextDateTime(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::rDateTimePeriod(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::timesInInterval(QDateTime const&, QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::defaultRRuleConst() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::getPreviousDateTime(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::days() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::dump() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::allDay() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::rDates() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::rRules() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::recurs() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::endDate() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::exDates() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::exRules() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::duration() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::recursAt(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::recursOn(QDate const&, QTimeZone const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::yearDays() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::frequency() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::monthDays() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::startDate() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::weekStart() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::yearDates() const
-libKF6CalendarCore.so.6:KCalendarCore::Recurrence::operator==(KCalendarCore::Recurrence const&) const
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::readStatus(char const*) const
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::writeStatus(KCalendarCore::Attendee::PartStat) const
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::parseTZ(QByteArray const&) const
-libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::parseDst(QByteArray&) const
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::metaObject() const
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::saveFormat() const
-libKF6CalendarCore.so.6:KCalendarCore::FileStorage::fileName() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::isReadOnly() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::dirtyFields() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::hasDuration() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::lastModified() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::recurrenceId() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::attendeeByUid(QString const&) const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::attendeeCount() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::attendeeByMail(QString const&) const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::attendeeByMails(QList<QString> const&, QString const&) const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::uid() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::uri() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::url() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::allDay() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::equals(KCalendarCore::IncidenceBase const&) const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::dtStart() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::comments() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::contacts() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::duration() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::attendees() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::organizer() const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::serialize(QDataStream&) const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::operator==(KCalendarCore::IncidenceBase const&) const
-libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::operator!=(KCalendarCore::IncidenceBase const&) const
-libKF6CalendarCore.so.6:KCalendarCore::CalendarPlugin::metaObject() const
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::type() const
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::summary() const
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusyPeriod::location() const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::metaObject() const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::rawJournals(KCalendarCore::JournalSortField, KCalendarCore::SortDirection) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::todoInstances(QSharedPointer<KCalendarCore::Incidence> const&, KCalendarCore::TodoSortField, KCalendarCore::SortDirection) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::eventInstances(QSharedPointer<KCalendarCore::Incidence> const&, KCalendarCore::EventSortField, KCalendarCore::SortDirection) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::rawTodosForDate(QDate const&) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::journalInstances(QSharedPointer<KCalendarCore::Incidence> const&, KCalendarCore::JournalSortField, KCalendarCore::SortDirection) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::rawEventsForDate(QDate const&, QTimeZone const&, KCalendarCore::EventSortField, KCalendarCore::SortDirection) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::rawJournalsForDate(QDate const&) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::updateLastModifiedOnChange() const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::todo(QString const&, QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::event(QString const&, QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::alarms(QDateTime const&, QDateTime const&, bool) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::journal(QString const&, QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::instance(QString const&) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::rawTodos(KCalendarCore::TodoSortField, KCalendarCore::SortDirection) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::rawTodos(QDate const&, QDate const&, QTimeZone const&, bool) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::rawEvents(KCalendarCore::EventSortField, KCalendarCore::SortDirection) const
-libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::rawEvents(QDate const&, QDate const&, QTimeZone const&, bool) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::byYearDays() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::durationTo(QDate const&) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::durationTo(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::isReadOnly() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::byMonthDays() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::getNextDate(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::recurTimesOn(QDate const&, QTimeZone const&) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::byWeekNumbers() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::recurrenceType() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::getPreviousDate(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::timesInInterval(QDateTime const&, QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::dateMatchesRules(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::dump() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::endDt(bool*) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::rrule() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::allDay() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::byDays() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::recurs() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::WDayPos::day() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::WDayPos::pos() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::WDayPos::operator==(KCalendarCore::RecurrenceRule::WDayPos const&) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::WDayPos::operator!=(KCalendarCore::RecurrenceRule::WDayPos const&) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::byHours() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::startDt() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::byMonths() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::bySetPos() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::duration() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::recursAt(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::recursOn(QDate const&, QTimeZone const&) const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::byMinutes() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::bySeconds() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::frequency() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::weekStart() const
-libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::operator==(KCalendarCore::RecurrenceRule const&) const
-libKF6CalendarCore.so.6:KCalendarCore::ScheduleMessage::error() const
-libKF6CalendarCore.so.6:KCalendarCore::ScheduleMessage::event() const
-libKF6CalendarCore.so.6:KCalendarCore::ScheduleMessage::method() const
-libKF6CalendarCore.so.6:KCalendarCore::ScheduleMessage::status() const
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::customProperty(QByteArray const&, QByteArray const&) const
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::customProperties() const
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::nonKDECustomProperty(QByteArray const&) const
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::nonKDECustomPropertyParameters(QByteArray const&) const
-libKF6CalendarCore.so.6:KCalendarCore::CustomProperties::operator==(KCalendarCore::CustomProperties const&) const
-libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::metaObject() const
-libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::data(QModelIndex const&, int) const
-libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::rowCount(QModelIndex const&) const
-libKF6CalendarCore.so.6:KCalendarCore::CalendarListModel::roleNames() const
-libKF6CalendarCore.so.6:KCalendarCore::ICalTimeZoneCache::tzForTime(QDateTime const&, QByteArray const&) const
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::recurrenceId() const
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::occurrenceEndDate() const
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::occurrenceStartDate() const
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::hasNext() const
-libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::incidence() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::hasDueDate() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::isCompleted() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::isOpenEnded() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::dtRecurrence() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::hasStartDate() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::isInProgress(bool) const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::isNotStarted(bool) const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::percentComplete() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::hasCompletedDate() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::supportsGroupwareCommunication() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::type() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::clone() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::dtDue(bool) const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::equals(KCalendarCore::IncidenceBase const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::dtStart(bool) const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::dtStart() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::typeStr() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::dateTime(KCalendarCore::IncidenceBase::DateTimeRole) const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::iconName(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::mimeType() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::recursOn(QDate const&, QTimeZone const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::completed() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::isOverdue() const
-libKF6CalendarCore.so.6:KCalendarCore::Todo::serialize(QDataStream&) const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::snoozeTime() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::mailSubject() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::programFile() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::repeatCount() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::startOffset() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::hasEndOffset() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::mailAddresses() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::hasStartOffset() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::locationRadius() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::nextRepetition(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::mailAttachments() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::programArguments() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::hasLocationRadius() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::previousRepetition(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::text() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::time() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::type() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::enabled() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::endTime() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::hasTime() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::duration() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::mailText() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::nextTime(QDateTime const&, bool) const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::audioFile() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::endOffset() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::parentUid() const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::operator==(KCalendarCore::Alarm const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Alarm::operator!=(KCalendarCore::Alarm const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Event::hasEndDate() const
-libKF6CalendarCore.so.6:KCalendarCore::Event::isMultiDay(QTimeZone const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Event::transparency() const
-libKF6CalendarCore.so.6:KCalendarCore::Event::supportsGroupwareCommunication() const
-libKF6CalendarCore.so.6:KCalendarCore::Event::type() const
-libKF6CalendarCore.so.6:KCalendarCore::Event::clone() const
-libKF6CalendarCore.so.6:KCalendarCore::Event::dtEnd() const
-libKF6CalendarCore.so.6:KCalendarCore::Event::equals(KCalendarCore::IncidenceBase const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Event::dateEnd() const
-libKF6CalendarCore.so.6:KCalendarCore::Event::typeStr() const
-libKF6CalendarCore.so.6:KCalendarCore::Event::dateTime(KCalendarCore::IncidenceBase::DateTimeRole) const
-libKF6CalendarCore.so.6:KCalendarCore::Event::iconName(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Event::mimeType() const
-libKF6CalendarCore.so.6:KCalendarCore::Event::serialize(QDataStream&) const
-libKF6CalendarCore.so.6:KCalendarCore::Period::hasDuration() const
-libKF6CalendarCore.so.6:KCalendarCore::Period::end() const
-libKF6CalendarCore.so.6:KCalendarCore::Period::start() const
-libKF6CalendarCore.so.6:KCalendarCore::Period::isValid() const
-libKF6CalendarCore.so.6:KCalendarCore::Period::duration(KCalendarCore::Duration::Type) const
-libKF6CalendarCore.so.6:KCalendarCore::Period::duration() const
-libKF6CalendarCore.so.6:KCalendarCore::Period::operator==(KCalendarCore::Period const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Period::operator<(KCalendarCore::Period const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Person::name() const
-libKF6CalendarCore.so.6:KCalendarCore::Person::email() const
-libKF6CalendarCore.so.6:KCalendarCore::Person::isEmpty() const
-libKF6CalendarCore.so.6:KCalendarCore::Person::fullName() const
-libKF6CalendarCore.so.6:KCalendarCore::Person::operator==(KCalendarCore::Person const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Person::operator!=(KCalendarCore::Person const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Journal::supportsGroupwareCommunication() const
-libKF6CalendarCore.so.6:KCalendarCore::Journal::type() const
-libKF6CalendarCore.so.6:KCalendarCore::Journal::clone() const
-libKF6CalendarCore.so.6:KCalendarCore::Journal::equals(KCalendarCore::IncidenceBase const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Journal::typeStr() const
-libKF6CalendarCore.so.6:KCalendarCore::Journal::dateTime(KCalendarCore::IncidenceBase::DateTimeRole) const
-libKF6CalendarCore.so.6:KCalendarCore::Journal::iconName(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Journal::mimeType() const
-libKF6CalendarCore.so.6:KCalendarCore::Journal::serialize(QDataStream&) const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::customProperties() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::uid() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::RSVP() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::name() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::role() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::email() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::cuType() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::isNull() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::status() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::delegate() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::fullName() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::cuTypeStr() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::delegator() const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::operator==(KCalendarCore::Attendee const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Attendee::operator!=(KCalendarCore::Attendee const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::accessMode() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::categories() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::incidences(QDate const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::incidences() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::isModified() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::metaObject() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::timeZoneId() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::batchAdding() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::appendAlarms(QList<QSharedPointer<KCalendarCore::Alarm> >&, QSharedPointer<KCalendarCore::Incidence> const&, QDateTime const&, QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::rawIncidences() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::appendRecurringAlarms(QList<QSharedPointer<KCalendarCore::Alarm> >&, QSharedPointer<KCalendarCore::Incidence> const&, QDateTime const&, QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::incidenceFromSchedulingID(QString const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::incidencesFromSchedulingID(QString const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::id() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::icon() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::name() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::owner() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::todos(KCalendarCore::TodoSortField, KCalendarCore::SortDirection) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::todos(QDate const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::todos(QDate const&, QDate const&, QTimeZone const&, bool) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::events(KCalendarCore::EventSortField, KCalendarCore::SortDirection) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::events(QDate const&, QTimeZone const&, KCalendarCore::EventSortField, KCalendarCore::SortDirection) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::events(QDate const&, QDate const&, QTimeZone const&, bool) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::events(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::filter() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::alarmsTo(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::journals(KCalendarCore::JournalSortField, KCalendarCore::SortDirection) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::journals(QDate const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::timeZone() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::incidence(QString const&, QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::instances(QSharedPointer<KCalendarCore::Incidence> const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::isLoading() const
-libKF6CalendarCore.so.6:KCalendarCore::Calendar::productId() const
-libKF6CalendarCore.so.6:KCalendarCore::Duration::end(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Duration::type() const
-libKF6CalendarCore.so.6:KCalendarCore::Duration::value() const
-libKF6CalendarCore.so.6:KCalendarCore::Duration::asDays() const
-libKF6CalendarCore.so.6:KCalendarCore::Duration::isNull() const
-libKF6CalendarCore.so.6:KCalendarCore::Duration::isDaily() const
-libKF6CalendarCore.so.6:KCalendarCore::Duration::asSeconds() const
-libKF6CalendarCore.so.6:KCalendarCore::Duration::operator bool() const
-libKF6CalendarCore.so.6:KCalendarCore::Duration::operator==(KCalendarCore::Duration const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Duration::operator<(KCalendarCore::Duration const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Duration::operator-() const
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::busyPeriods() const
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::fullBusyPeriods() const
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::type() const
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::dtEnd() const
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::equals(KCalendarCore::IncidenceBase const&) const
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::typeStr() const
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::dateTime(KCalendarCore::IncidenceBase::DateTimeRole) const
-libKF6CalendarCore.so.6:KCalendarCore::FreeBusy::mimeType() const
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::categoryList() const
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::filterIncidence(QSharedPointer<KCalendarCore::Incidence> const&) const
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::completedTimeSpan() const
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::name() const
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::apply(QList<QSharedPointer<KCalendarCore::Todo> >*) const
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::apply(QList<QSharedPointer<KCalendarCore::Event> >*) const
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::apply(QList<QSharedPointer<KCalendarCore::Journal> >*) const
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::criteria() const
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::emailList() const
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::isEnabled() const
-libKF6CalendarCore.so.6:KCalendarCore::CalFilter::operator==(KCalendarCore::CalFilter const&) const
-libKF6CalendarCore.so.6:KCalendarCore::CalFormat::exception() const
-libKF6CalendarCore.so.6:KCalendarCore::Exception::code() const
-libKF6CalendarCore.so.6:KCalendarCore::Exception::arguments() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::categories() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::recurrence() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::attachments(QString const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::attachments() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::conferences() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::description() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::geoLatitude() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::richSummary() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::customStatus() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::geoLongitude() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::recurrenceId() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::richLocation() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::schedulingID() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::categoriesStr() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::summaryIsRich() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::thisAndFuture() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::altDescription() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::locationIsRich() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::recurrenceType() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::endDateForStart(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::hasRecurrenceId() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::richDescription() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::hasEnabledAlarms() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::descriptionIsRich() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::hasAltDescription() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::instanceIdentifier() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::startDateTimesForDate(QDate const&, QTimeZone const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::startDateTimesForDateTime(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::color() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::alarms() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::equals(KCalendarCore::IncidenceBase const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::hasGeo() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::recurs() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::status() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::created() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::secrecy() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::summary() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::location() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::priority() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::recursAt(QDateTime const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::recursOn(QDate const&, QTimeZone const&) const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::revision() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::localOnly() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::relatedTo(KCalendarCore::Incidence::RelType) const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::resources() const
-libKF6CalendarCore.so.6:KCalendarCore::Incidence::serialize(QDataStream&) const
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::MemoryCalendar::~MemoryCalendar()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::MemoryCalendar::~MemoryCalendar()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Calendar::customPropertyUpdated()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Calendar::~Calendar()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Calendar::~Calendar()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::MemoryCalendar::incidenceUpdate(QString const&, QDateTime const&)
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::MemoryCalendar::incidenceUpdated(QString const&, QDateTime const&)
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::MemoryCalendar::~MemoryCalendar()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::MemoryCalendar::~MemoryCalendar()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Todo::~Todo()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Todo::~Todo()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Event::~Event()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Event::~Event()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Journal::~Journal()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Journal::~Journal()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Calendar::incidenceUpdated(QString const&, QDateTime const&)
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Calendar::~Calendar()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Calendar::~Calendar()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Incidence::recurrenceUpdated(KCalendarCore::Recurrence*)
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Incidence::~Incidence()
-libKF6CalendarCore.so.6:non-virtual thunk to KCalendarCore::Incidence::~Incidence()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::IncidenceObserver::~IncidenceObserver()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::clearAttendees()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::clearComments()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::clearContacts()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::customPropertyUpdate()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::customPropertyUpdated()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::deserialize(QDataStream&)
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::endUpdates()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::magicSerializationIdentifier()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::registerObserver(KCalendarCore::IncidenceBase::IncidenceObserver*)
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::resetDirtyFields()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setAllDay(bool)
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setFieldDirty(KCalendarCore::IncidenceBase::Field)
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setHasDuration(bool)
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::setReadOnly(bool)
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::startUpdates()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::unRegisterObserver(KCalendarCore::IncidenceBase::IncidenceObserver*)
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::update()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::updated()
+libKF6CalendarCore.so.6:KCalendarCore::IncidenceBase::~IncidenceBase()
+libKF6CalendarCore.so.6:KCalendarCore::Journal::Journal()
+libKF6CalendarCore.so.6:KCalendarCore::Journal::deserialize(QDataStream&)
+libKF6CalendarCore.so.6:KCalendarCore::Journal::journalMimeType()
+libKF6CalendarCore.so.6:KCalendarCore::Journal::~Journal()
+libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::setUpdateLastModifiedOnChange(bool)
+libKF6CalendarCore.so.6:KCalendarCore::MemoryCalendar::~MemoryCalendar()
+libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::next()
+libKF6CalendarCore.so.6:KCalendarCore::OccurrenceIterator::~OccurrenceIterator()
+libKF6CalendarCore.so.6:KCalendarCore::Period::Period()
+libKF6CalendarCore.so.6:KCalendarCore::Period::~Period()
+libKF6CalendarCore.so.6:KCalendarCore::Person::Person()
+libKF6CalendarCore.so.6:KCalendarCore::Person::~Person()
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::Recurrence()
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::RecurrenceObserver::~RecurrenceObserver()
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addExRule(KCalendarCore::RecurrenceRule*)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addMonthlyDate(short)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addObserver(KCalendarCore::Recurrence::RecurrenceObserver*)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addRRule(KCalendarCore::RecurrenceRule*)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addYearlyDate(int)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addYearlyDay(int)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::addYearlyMonth(short)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::clear()
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::deleteExRule(KCalendarCore::RecurrenceRule*)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::deleteRRule(KCalendarCore::RecurrenceRule*)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::recurrenceChanged(KCalendarCore::RecurrenceRule*)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::removeExRule(KCalendarCore::RecurrenceRule*)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::removeObserver(KCalendarCore::Recurrence::RecurrenceObserver*)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::removeRRule(KCalendarCore::RecurrenceRule*)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setAllDay(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setDaily(int)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setDuration(int)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setFrequency(int)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setHourly(int)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setMinutely(int)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setMonthly(int)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setRecurReadOnly(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::setYearly(int)
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::unsetRecurs()
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::updated()
+libKF6CalendarCore.so.6:KCalendarCore::Recurrence::~Recurrence()
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::RecurrenceRule()
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::RuleObserver::~RuleObserver()
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::WDayPos::setDay(short)
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::WDayPos::setPos(int)
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::addObserver(KCalendarCore::RecurrenceRule::RuleObserver*)
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::clear()
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::removeObserver(KCalendarCore::RecurrenceRule::RuleObserver*)
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setAllDay(bool)
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setDirty()
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setDuration(int)
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setFrequency(int)
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setReadOnly(bool)
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setRecurrenceType(KCalendarCore::RecurrenceRule::PeriodType)
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::setWeekStart(short)
+libKF6CalendarCore.so.6:KCalendarCore::RecurrenceRule::~RecurrenceRule()
+libKF6CalendarCore.so.6:KCalendarCore::ScheduleMessage::methodName(KCalendarCore::iTIPMethod)
+libKF6CalendarCore.so.6:KCalendarCore::ScheduleMessage::~ScheduleMessage()
+libKF6CalendarCore.so.6:KCalendarCore::Todo::Todo()
+libKF6CalendarCore.so.6:KCalendarCore::Todo::deserialize(QDataStream&)
+libKF6CalendarCore.so.6:KCalendarCore::Todo::setAllDay(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Todo::setCompleted(bool)
+libKF6CalendarCore.so.6:KCalendarCore::Todo::setPercentComplete(int)
+libKF6CalendarCore.so.6:KCalendarCore::Todo::todoMimeType()
+libKF6CalendarCore.so.6:KCalendarCore::Todo::~Todo()
+libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::VCalFormat()
+libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::VEventToEvent(VObject*)
+libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::VTodoToEvent(VObject*)
+libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::populate(VObject*)
+libKF6CalendarCore.so.6:KCalendarCore::VCalFormat::~VCalFormat()
+libKF6CalendarCore.so.6:KCalendarCore::Visitor::Visitor()
+libKF6CalendarCore.so.6:KCalendarCore::Visitor::~Visitor()
+libKF6CalendarCore.so.6:KCalendarCore::deserializeKDateTimeAsQDateTime(QDataStream&)
